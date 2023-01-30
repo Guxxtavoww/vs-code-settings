@@ -94,27 +94,6 @@
   },
   "material-icon-theme.activeIconPack": "nest",
   "window.zoomLevel": -1,
-  "totalTypeScript.hiddenTips": [
-    "basic-types",
-    "union-type",
-    "variable-type-annotation",
-    "undefined-keyword",
-    "typing-function-parameters",
-    "passing-generics-to-types",
-    "function-return-type",
-    "type-alias-declaration",
-    "literal-type",
-    "typeof",
-    "optional-object-property",
-    "interface-declaration",
-    "any-type",
-    "interface-with-generics",
-    "ts-object-type",
-    "array-type",
-    "tuple-type"
-  ],
-  "totalTypeScript.hideAllTips": false,
-  "totalTypeScript.hideBasicTips": true,
   "prettier.quoteProps": "consistent",
   "prettier.singleQuote": true
 }
