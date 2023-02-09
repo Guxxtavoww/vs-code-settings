@@ -10,6 +10,8 @@
   "editor.fontWeight": 500,
   "editor.fontLigatures": true,
   "terminal.integrated.fontFamily": "Fira Code",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontWeight": "600",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -27,7 +29,6 @@
   "zenMode.hideActivityBar": true,
   "zenMode.hideStatusBar": true,
   "editor.fontSize": 16,
-  "thunder-client.codeSnippetLanguage": "cs-httpclient",
   "bracket-pair-colorizer-2.depreciation-notice": false,
   "security.workspace.trust.untrustedFiles": "open",
   "[css]": {
@@ -93,7 +94,6 @@
     "navigation": "routes"
   },
   "material-icon-theme.activeIconPack": "nest",
-  "window.zoomLevel": -1,
   "prettier.quoteProps": "consistent",
   "prettier.singleQuote": true
 }
