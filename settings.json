@@ -70,6 +70,7 @@
     "png": "images",
     "kafka": "pipe",
     "use-cases": "functions",
+    "storage": "database",
     "migrations": "tools",
     "schemas": "class",
     "useCases": "functions",
