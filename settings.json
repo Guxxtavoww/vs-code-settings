@@ -6,7 +6,7 @@
   "diffEditor.wordWrap": "on",
   "workbench.iconTheme": "material-icon-theme",
   "explorer.confirmDelete": false,
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "JetBrains Mono",
   "editor.fontWeight": 500,
   "editor.fontLigatures": true,
   "terminal.integrated.fontFamily": "Fira Code",
@@ -16,7 +16,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "bracketPairColorizer.depreciation-notice": false,
   "explorer.confirmDragAndDrop": false,
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -49,7 +48,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "workbench.colorTheme": "One Dark Pro Darker",
   "material-icon-theme.languages.associations": {
     "dotenv": "tune"
   },
@@ -60,6 +58,8 @@
   },
   "material-icon-theme.folders.associations": {
     "adapters": "contract",
+    "strategies": "config",
+    "dto": "interface",
     "grpc": "pipe",
     "kube": "kubernetes",
     "main": "lib",
@@ -95,5 +95,10 @@
   },
   "material-icon-theme.activeIconPack": "nest",
   "prettier.quoteProps": "consistent",
-  "prettier.singleQuote": true
+  "prettier.singleQuote": true,
+  "workbench.colorTheme": "Darcula Theme from IntelliJ",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "extensions.ignoreRecommendations": true
 }
