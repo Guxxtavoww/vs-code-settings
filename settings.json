@@ -62,6 +62,7 @@
     "dto": "interface",
     "grpc": "pipe",
     "kube": "kubernetes",
+    "interceptors": "middleware",
     "main": "lib",
     "websockets": "pipe",
     "implementations": "core",
@@ -101,5 +102,6 @@
   "[python]": {
     "editor.formatOnType": true
   },
-  "extensions.ignoreRecommendations": true
+  "extensions.ignoreRecommendations": true,
+  "terminal.integrated.env.windows": {}
 }
