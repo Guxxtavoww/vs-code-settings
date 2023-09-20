@@ -12,6 +12,7 @@
   "terminal.integrated.fontFamily": "Fira Code",
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.fontWeight": "600",
+  "workbench.tree.indent": 12.5,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -57,6 +58,7 @@
     "ormconfig.json": "database"
   },
   "material-icon-theme.folders.associations": {
+    "users": "admin",
     "adapters": "contract",
     "strategies": "config",
     "dto": "interface",
@@ -93,7 +95,7 @@
     "repositories": "mappings",
     "features": "container",
     "alerts": "audio",
-    "navigation": "routes"
+    "navigation": "routes",
   },
   "material-icon-theme.activeIconPack": "nest",
   "prettier.quoteProps": "consistent",
@@ -103,5 +105,7 @@
     "editor.formatOnType": true
   },
   "extensions.ignoreRecommendations": true,
-  "terminal.integrated.env.windows": {}
+  "terminal.integrated.env.windows": {},
+  "terminal.integrated.env.linux": {},
+  "symbols.hidesExplorerArrows": false
 }
