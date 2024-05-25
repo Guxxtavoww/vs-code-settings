@@ -4,15 +4,20 @@
   "editor.wordWrap": "on",
   "editor.formatOnSave": true,
   "diffEditor.wordWrap": "on",
+  "workbench.activityBar.location": "hidden",
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.labelFormat": "short",
   "explorer.confirmDelete": false,
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontWeight": 500,
   "editor.fontLigatures": true,
-  "terminal.integrated.fontFamily": "Fira Code",
-  "terminal.integrated.fontSize": 16,
+  "editor.renderLineHighlight": "gutter",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.lineHeight": 1.8,
   "terminal.integrated.fontWeight": "600",
   "workbench.tree.indent": 12.5,
+  "breadcrumbs.enabled": false,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -24,15 +29,13 @@
   "update.mode": "start",
   "errorLens.onSave": true,
   "editor.linkedEditing": true,
-  "workbench.activityBar.visible": true,
-  "workbench.statusBar.visible": true,
+  "workbench.statusBar.visible": false,
   "zenMode.hideActivityBar": true,
   "zenMode.hideStatusBar": true,
-  "editor.fontSize": 16,
-  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "editor.fontSize": 14,
   "security.workspace.trust.untrustedFiles": "open",
   "[css]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -96,16 +99,56 @@
     "features": "container",
     "alerts": "audio",
     "navigation": "routes",
+    "_components": "components",
+    "(protected)": "admin",
+    "ui": "layout",
+    "actions": "functions",
+    "_lib": "lib",
+    "_containers": "container",
+    "_context": "context",
+    "_contexts": "context",
+    "_schemas": "class",
+    "_schema": "class",
   },
   "material-icon-theme.activeIconPack": "nest",
   "prettier.quoteProps": "consistent",
   "prettier.singleQuote": true,
-  "workbench.colorTheme": "Darcula Theme from IntelliJ",
+  "workbench.colorTheme": "Min Dark",
   "[python]": {
     "editor.formatOnType": true
   },
   "extensions.ignoreRecommendations": true,
   "terminal.integrated.env.windows": {},
   "terminal.integrated.env.linux": {},
-  "symbols.hidesExplorerArrows": false
+  "symbols.hidesExplorerArrows": false,
+  "git.enableSmartCommit": true,
+  "prettify-ts.enableHover": false,
+  "explorer.confirmPasteNative": false,
+  "git.confirmSync": false,
+  "terminal.external.windowsExec": "C:\\Program Files\\nu\\bin\\nu.exe",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "NuShell": {
+      "path": "C:\\Program Files\\nu\\bin\\nu.exe",
+      "args": []
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "NuShell",
+  "git.openRepositoryInParentFolders": "never",
+  "prisma.showPrismaDataPlatformNotification": false,
+  "editor.minimap.enabled": false,
 }
