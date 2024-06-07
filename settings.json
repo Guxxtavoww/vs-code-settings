@@ -9,7 +9,7 @@
   "workbench.editor.labelFormat": "short",
   "explorer.confirmDelete": false,
   "editor.fontFamily": "JetBrains Mono",
-  "editor.fontWeight": 500,
+  "editor.fontWeight": 450,
   "editor.fontLigatures": true,
   "editor.renderLineHighlight": "gutter",
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
@@ -17,6 +17,7 @@
   "terminal.integrated.lineHeight": 1.8,
   "terminal.integrated.fontWeight": "600",
   "workbench.tree.indent": 12.5,
+  "window.commandCenter": false,
   "breadcrumbs.enabled": false,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -58,7 +59,8 @@
   "material-icon-theme.files.associations": {
     "*.webpack.js": "webpack",
     "*.proto": "3d",
-    "ormconfig.json": "database"
+    "ormconfig.json": "database",
+    "*.repository.ts": "Nest",
   },
   "material-icon-theme.folders.associations": {
     "users": "admin",
@@ -109,6 +111,8 @@
     "_contexts": "context",
     "_schemas": "class",
     "_schema": "class",
+    "repository": "pipe",
+    "repositorys": "pipe",
   },
   "material-icon-theme.activeIconPack": "nest",
   "prettier.quoteProps": "consistent",
@@ -151,4 +155,18 @@
   "git.openRepositoryInParentFolders": "never",
   "prisma.showPrismaDataPlatformNotification": false,
   "editor.minimap.enabled": false,
+  "liveServer.settings.donotVerifyTags": true,
+  "files.associations": {
+    ".env*": "dotenv"
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "keyword.other.dotenv",
+        "settings": {
+          "foreground": "#FF000000"
+        }
+      }
+    ]
+  },
 }
